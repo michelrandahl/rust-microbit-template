@@ -20,6 +20,7 @@
         devShells.default = mkShell {
           buildInputs = [
             pkg-config
+            openssl
             from-rust-toolchain-file
             rust-analyzer
             probe-rs # (cargo-embed) can be used to flash binaries onto microcontrollers

@@ -3,7 +3,7 @@ Simple minimal template for setting up a Rust microbit-v2 project.
 Contains `flake.nix` for nix development environment and `.neoconf.json` for neovim support.
 
 ## Get started
-- Run `cargo-generate --git https://github.com/michelrandahl/rust-microbit-template.git --name my-project`
+- Run `cargo generate --git https://github.com/michelrandahl/rust-microbit-template.git --name my-project`
 - Run `nix develop` to create a minimal development environment with necessary packages.
 - Physically connect microbit-v2 and run `make embed`
 
